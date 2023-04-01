@@ -60,7 +60,7 @@ function draw() {
 
 draw();
 
-const texts = ['Welcome to Space Nodes', 'We are currently under construction', 'check us out later!'];
+const texts = ['Welcome to Space Nodes', 'We are currently under construction', 'Check us out later!'];
 let textIndex = 0;
 let charIndex = 0;
 let cursorVisible = true;
