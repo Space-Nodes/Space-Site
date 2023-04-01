@@ -104,5 +104,3 @@ document.addEventListener('wheel', event => {
         if (speed > 1000) speed = 2000;
       }
     });
-
-    //Last updated: 2023-03-27 - Mathias Clari Drenik
