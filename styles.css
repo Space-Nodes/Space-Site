@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+  }
+
+  .text-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cba6f7;
+    text-align: center;
+    font-size: 2.9em;
+    font-weight: 700;
+      user-select: none;
+  }
+
+  @media screen and (max-width: 1125px) {
+
+    .text-animation {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-animation {
+        font-size: 1.9em;
+    }
+}
